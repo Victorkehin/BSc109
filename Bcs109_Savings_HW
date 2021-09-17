@@ -1,0 +1,167 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "name": "Untitled2.ipynb",
+      "provenance": [],
+      "collapsed_sections": [],
+      "authorship_tag": "ABX9TyO4vJMXVwhFOMIYuOMtUy2W",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Victorkehin/BSc109/blob/main/Bcs109_Savings_HW\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "rLx6VXr7nWAA",
+        "outputId": "bafca433-e80b-4640-8821-7548453200f7"
+      },
+      "source": [
+        "VAL = 12\n",
+        "x= VAL + 2 \n",
+        "print(x)"
+      ],
+      "execution_count": 1,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "14\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "lA4HZUY0ofJ6",
+        "outputId": "acff14e4-b83e-4314-9e04-df209f3a57c9"
+      },
+      "source": [
+        "y  = 2**12\n",
+        "print(y)"
+      ],
+      "execution_count": 2,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "4096\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "_xokg6s7pIH3"
+      },
+      "source": [
+        "y = int(input(\"What's your age?\"))\n",
+        "age_in_minutes = y * 365*60*24\n",
+        "print(f'Your age is {age_in_minutes}')"
+      ],
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "x_px1KKSruYT"
+      },
+      "source": [
+        "# Investment Strategy\n",
+        "\n",
+        "This worksheet will assist on finncial decisions.\n",
+        "\n",
+        "\n",
+        "* Future value\n",
+        "* Present value\n",
+        "* Principal"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "Ez5JXd5Bscqq"
+      },
+      "source": [
+        "interest_rate = .05\n",
+        "years = 10\n",
+        "principal = 100\n",
+        "output = principal*(1+interest_rate)**years\n",
+        "print(f' The output is {output}')"
+      ],
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "FHpglMiEvW3v"
+      },
+      "source": [
+        "# Biggest\n",
+        "## \n",
+        "### "
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "VzeYOuI3tlkz",
+        "outputId": "bbf936f0-9df4-48ae-92a9-23c18f139af4"
+      },
+      "source": [
+        "fv = float(input(\"What is your target goal\"))\n",
+        "num_years = float(input(\"HOw many years will you invest\"))\n",
+        "interest_rate = float(input(\"What will the interest rate be?\"))\n",
+        "\n",
+        "present_value = fv/(1+interest_rate)**num_years\n",
+        "print(\"The present value is \", present_value)"
+      ],
+      "execution_count": 7,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "What is your target goal1000\n",
+            "HOw many years will you invest8\n",
+            "What will the interest rate be?.11\n",
+            "The present value is  433.92649629802077\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
